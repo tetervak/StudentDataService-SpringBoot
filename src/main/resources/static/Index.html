@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script defer src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/footer.js"></script>
+    <title>List All</title>
+</head>
+<body>
+<header>
+    <div>
+        <nav class="navbar navbar-expand-sm navbar-dark navbar-custom">
+            <div class="container">
+                <a href="#" class="navbar-brand">Student Data</a>
+            </div>
+        </nav>
+    </div>
+    <div class="container">
+        <h1 class="my-4">Student List</h1>
+    </div>
+</header>
+<main role="main" class="container">
+    <p id="no_data_message" class="alert alert-info">No student data</p>
+    <table id="data_table" class="table table-bordered table-striped mb-4">
+        <thead>
+            <tr class="table-primary">
+                <th scope="col">Count</th>
+                <th scope="col">First Name</th>
+                <th scope="col">Last Name</th>
+                <th scope="col">Options</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row" class="align-middle">1</th>
+                <td class="align-middle">Lisa</td>
+                <td class="align-middle">Simpson</td>
+                <td>
+                    <ul class="nav justify-content-center">
+                        <li class="nav-item">
+                            <a class="nav-link" href="Details.html">
+                                <i class="material-icons">info</i>&nbsp;Info</a>
+                        </li>
+                    </ul>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</main>
+</body>
+</html>
