@@ -1,5 +1,5 @@
 $(function(){
-    $.getJSON("students", displayStudentTable);
+    $.getJSON("api/students", displayStudentTable);
 });
 
 function displayStudentTable(data) {

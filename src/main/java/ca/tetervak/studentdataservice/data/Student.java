@@ -1,4 +1,4 @@
-package ca.javateacher.studentdataservice.data;
+package ca.tetervak.studentdataservice.data;
 
 import javax.persistence.*;
 import java.io.Serializable;
